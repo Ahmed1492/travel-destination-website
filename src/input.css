@@ -11,7 +11,7 @@ section {
   width: 85%;
   margin: auto;
   padding: 10px;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 ul li {
   list-style: none;
@@ -25,8 +25,18 @@ a {
 
 /*  -----------   Hero Section-----------  */
 
+#menu-button {
+  z-index: 9999;
+  z-index: 9999;
+  position: absolute;
+  right: 21px;
+  top: 22px;
+  display: none;
+  width: 45px;
+  border-radius: 28px;
+}
+
 .containerHero .playButtonIcone {
-  /* position: absolute; */
   width: 70px;
   box-shadow: 0px 15px 30px 0px #ff856d3b;
 }
@@ -97,7 +107,6 @@ img.underLine {
   gap: 2rem;
   position: absolute;
   right: -135px;
-  /* background-color: red; */
   z-index: 999;
   top: 93px;
   cursor: pointer;
@@ -443,7 +452,6 @@ img.underLine {
 
   .containerTestimonials .top .left h2 {
     font-size: 41px;
-    color: rebeccapurple;
   }
   .containerTestimonials .arrows {
     right: -114px;
@@ -571,7 +579,6 @@ img.underLine {
 
   .containerTestimonials .top .left h2 {
     font-size: 49px;
-    color: red;
   }
 
   .containerTestimonials .top .right p {
@@ -585,7 +592,6 @@ img.underLine {
 
   .containerTestimonials .top .left h2 {
     font-size: 41px;
-    color: red;
   }
   .containerTestimonials .arrows {
     right: -114px;
@@ -747,7 +753,6 @@ img.underLine {
 
   .containerTestimonials .top .left h2 {
     font-size: 41px;
-    color: red;
   }
   .containerTestimonials .arrows {
     right: -101px;
@@ -1219,11 +1224,24 @@ img.underLine {
   }
 }
 
+.links.notActive {
+  right: 120vw;
+}
+.links.active {
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 600px) {
   section {
     width: 90%;
   }
 
+  #menu-button {
+    display: block;
+  }
   /* Navbar Section */
   .containerNavbar ul {
     width: 94vw;
@@ -1231,10 +1249,23 @@ img.underLine {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding: 47px 0;
+    margin: auto;
   }
   .containerNavbar {
     flex-direction: column;
     gap: 28px;
+    overflow: hidden;
+  }
+  .containerNavbar .links {
+    position: fixed;
+    transition: all 0.6s;
+    top: 0;
+    background-color: #fff;
+    bottom: 0;
+    z-index: 999;
+    overflow: hidden;
+    margin: auto;
   }
 
   /* Hero Section */
@@ -1548,11 +1579,8 @@ img.underLine {
 }
 
 @media only screen and (max-width: 440px) {
-  .containerNavbar ul {
-    display: none;
-  }
   .bg-orange {
-    right: -31px;
+    right: -97px;
   }
   .playIcon p {
     font-size: 26px;

@@ -22,13 +22,16 @@
     <div>
       <!-- NavBar Section -->
       <section>
+        <button id="menu-button">
+          <img src="icons/menuIcone.svg" alt="menuIcone" />
+        </button>
         <div
           class="containerNavbar flex justify-between items-center font-['Roboto'] font-normal"
         >
           <div class="logo">
             <img src="images/Logo.png" alt="Logo" class="w-full" />
           </div>
-          <div class="links">
+          <div id="nav-menu" class="links notActive">
             <ul class="flex justify-between items-center w-[43vw] flex-wrap">
               <li>
                 <a href="#link" class="text-black text-[20px]">Destinations</a>
@@ -641,8 +644,11 @@
             </div>
           </div>
         </div>
-        <p class="text-center text-gray-500">All Rights Reserved jodo.ho@gmail.com</p>
+        <p class="text-center mt-5 text-gray-500">
+          All Rights Reserved jodo.ho@gmail.com
+        </p>
       </section>
     </div>
   </body>
+  <script src="main.js"></script>
 </html>
