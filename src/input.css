@@ -1806,4 +1806,11 @@ img.underLine {
   .containerHero {
     margin-right: -4rem;
   }
+
+  .bg-orange {
+    right: -124px;
+  }
+  #menu-button {
+    right: -106px;
+  }
 }
