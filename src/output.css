@@ -3173,3 +3173,69 @@ img.underLine {
     max-width: 76%;
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .containerNavbar ul {
+    display: none;
+  }
+
+  .bg-orange {
+    right: -31px;
+  }
+
+  .playIcon p {
+    font-size: 26px;
+  }
+
+  .containerHero .playIcon {
+    gap: 11px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .containerHero .left button {
+    font-size: 18px;
+  }
+
+  .containerHero .left p.desc {
+    width: 100%;
+    font-size: 19px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  .containerHero .left h2 {
+    width: 100%;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 39px;
+    font-size: 31px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .singleService {
+    width: 16rem;
+  }
+
+  .singleDestination {
+    width: 18rem;
+  }
+
+  .ContainerBookTrip .left h3 {
+    max-width: 100%;
+    font-size: 31px;
+    text-align: center;
+    margin: 29px 0;
+  }
+
+  .items .item {
+    flex-direction: column !important;
+  }
+}
