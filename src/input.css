@@ -11,7 +11,7 @@ section {
   width: 85%;
   margin: auto;
   padding: 10px;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 ul li {
   list-style: none;
@@ -884,7 +884,6 @@ img.underLine {
     max-width: 85%;
     line-height: 26px;
     margin-bottom: 20px;
-    color: red;
   }
   .ContainerBookTrip .left .item h4 {
     font-size: 21px;
@@ -1121,7 +1120,6 @@ img.underLine {
   .ContainerBookTrip .right {
     width: 21rem !important;
     margin-right: 0;
-    color: yellowgreen;
   }
   .tripToRome {
     right: -43px;
@@ -1352,11 +1350,17 @@ img.underLine {
     max-width: 94%;
     line-height: 30px;
     margin-bottom: 20px;
-    color: red;
+    text-align: center;
   }
   .ContainerBookTrip .left .item h4 {
     font-size: 21px;
     font-weight: 700;
+    text-align: center;
+  }
+  .ContainerBookTrip .left .item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .ContainerBookTrip {
     flex-wrap: wrap;
@@ -1371,7 +1375,6 @@ img.underLine {
   .ContainerBookTrip .right {
     width: 21rem !important;
     margin-right: 0;
-    color: rebeccapurple;
   }
   .tripToRome {
     right: -43px;
@@ -1483,9 +1486,6 @@ img.underLine {
     align-items: center;
   }
 
-  .discover {
-    color: red;
-  }
   .googlePlayIcone,
   .appleStoreIcone {
     min-width: 31vw;

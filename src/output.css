@@ -695,6 +695,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mr-16 {
   margin-right: 4rem;
 }
@@ -1145,6 +1149,10 @@ video {
   padding-bottom: 6px;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .pb-\[24px\] {
   padding-bottom: 24px;
 }
@@ -1359,6 +1367,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .shadow-\[0_2px_8px_rgba\(99\2c 99\2c 99\2c 0\.2\)\] {
   --tw-shadow: 0 2px 8px rgba(99,99,99,0.2);
   --tw-shadow-colored: 0 2px 8px var(--tw-shadow-color);
@@ -1413,7 +1426,7 @@ section {
   width: 85%;
   margin: auto;
   padding: 10px;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 ul li {
@@ -2419,7 +2432,6 @@ img.underLine {
     max-width: 85%;
     line-height: 26px;
     margin-bottom: 20px;
-    color: red;
   }
 
   .ContainerBookTrip .left .item h4 {
@@ -2689,7 +2701,6 @@ img.underLine {
   .ContainerBookTrip .right {
     width: 21rem !important;
     margin-right: 0;
-    color: yellowgreen;
   }
 
   .tripToRome {
@@ -2946,12 +2957,19 @@ img.underLine {
     max-width: 94%;
     line-height: 30px;
     margin-bottom: 20px;
-    color: red;
+    text-align: center;
   }
 
   .ContainerBookTrip .left .item h4 {
     font-size: 21px;
     font-weight: 700;
+    text-align: center;
+  }
+
+  .ContainerBookTrip .left .item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .ContainerBookTrip {
@@ -2969,7 +2987,6 @@ img.underLine {
   .ContainerBookTrip .right {
     width: 21rem !important;
     margin-right: 0;
-    color: rebeccapurple;
   }
 
   .tripToRome {
@@ -3097,10 +3114,6 @@ img.underLine {
     flex-direction: column;
     text-align: center;
     align-items: center;
-  }
-
-  .discover {
-    color: red;
   }
 
   .googlePlayIcone,
