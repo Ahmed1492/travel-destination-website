@@ -1,0 +1,1555 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 3rem;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.font-auto {
+  font-family: auto !important;
+}
+
+/*  -----------   Hero Section-----------  */
+
+.containerHero .playButtonIcone {
+  /* position: absolute; */
+  width: 70px;
+  box-shadow: 0px 15px 30px 0px #ff856d3b;
+}
+.containerHero .left h4 {
+  color: #df6951;
+}
+
+img.underLine {
+  position: absolute;
+  width: 21rem;
+  left: 230px;
+  z-index: -1;
+  bottom: 9px;
+}
+.custom-line {
+  position: relative;
+}
+
+
+/*  -----------   Services Section -----------  */
+
+.singleService.relative {
+  box-shadow: 0px 1.85px 3.15px 0px #00000001;
+  box-shadow: 0px 8.15px 6.52px 0px #00000002;
+  box-shadow: 0px 20px 13px 0px #00000003;
+  box-shadow: 0px 38.52px 25.48px 0px #00000003;
+  box-shadow: 0px 64.81px 46.85px 0px #00000004;
+  box-shadow: 0px 100px 80px 0px #00000005;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: #fff;
+}
+
+
+
+/*-----------Book A Trip Section---------------*/
+
+
+.ContainerBookTrip .right {
+  line-height: 41px;
+}
+
+
+/* -----------  Testimonials Section ------------- */
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.containerTestimonials .bottom .brands img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.containerTestimonials .bottom .brands img:hover {
+  filter: grayscale(0%);
+}
+.containerTestimonials .bottom .brands .bigImage {
+  filter: grayscale(0%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.containerTestimonials .arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  right: -135px;
+  /* background-color: red; */
+  z-index: 999;
+  top: 93px;
+  cursor: pointer;
+}
+.allReviews {
+  position: relative;
+  margin-right: 3rem;
+}
+
+.nextReview {
+  position: absolute;
+  z-index: -1;
+  right: -39px;
+  top: 114px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+/*-------------   Footer Section  ----------------*/
+
+
+.footer-section.logo p,
+.footer-section ul li a {
+  font-size: 18px;
+}
+.footer-section ul {
+  white-space: nowrap;
+}
+.footer-section.social .social-icons img {
+  width: 50px;
+  object-fit: none;
+}
+
+.footer-section.social .app-icons span {
+  white-space: nowrap;
+  display: block;
+}
+
+.footer-section.social .app-icons img {
+  height: 29px;
+  width: 23px;
+  object-fit: contain;
+}
+
+.instaIcone {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b8d2f1 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  border-radius: 50%;
+  width: 50px;
+  object-fit: none;
+}
+.googlePlayIcone {
+  background-color: #121212;
+  min-width: 10vw;
+  display: flex;
+  gap: 10px;
+  padding: 7px 22px;
+  border-radius: 20px;
+  align-items: center;
+  height: 55px;
+  white-space: nowrap;
+}
+.googlePlayIcone span {
+  color: #d3c9c9;
+  font-weight: 200;
+}
+
+.appleStoreIcone {
+  background-color: #121212;
+  display: flex;
+  gap: 10px;
+  padding: 7px 22px;
+  border-radius: 20px;
+  min-width: 10vw;
+  align-items: center;
+  height: 55px;
+  white-space: nowrap;
+}
+
+.appleStoreIcone span {
+  color: #d3c9c9;
+}
+
+/* ---------------------------------- */
+/* Media Query */
+/* ------------------------------------ */
+
+@media only screen and (min-width: 1334px) and (max-width: 1596px) {
+  /* Hero Section */
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 58px;
+    line-height: 62px;
+  }
+  .containerHero .custom-line .underLine {
+    width: 17rem;
+    left: 178px;
+  }
+  .containerHero p.desc {
+    width: 75%;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+  .singleDestination {
+    width: 24vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 76%;
+    font-size: 47px;
+  }
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 44vw;
+  }
+  .containerTestimonials .right p {
+    font-size: 17px;
+  }
+  .containerTestimonials .right,
+  .nextReview {
+    width: 31vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 50px;
+  }
+  .containerTestimonials .arrows {
+    right: -118px;
+  }
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 48px;
+    width: 88%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 23vw;
+  }
+
+  /* Footer Section */
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 12vw;
+  }
+}
+
+@media only screen and (min-width: 1242px) and (max-width: 1334px) {
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 48vw;
+  }
+
+  /* Hero Section */
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 51px;
+    line-height: 55px;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+  }
+  .containerHero .custom-line .underLine {
+    width: 15rem;
+    left: 147px;
+  }
+  .containerHero .playButtonIcone {
+    width: 65px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 3rem;
+  }
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 57px;
+  }
+  .singleService {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+  .singleDestination {
+    width: 24vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left p {
+    max-width: 84%;
+  }
+  .ContainerBookTrip .left h3 {
+    max-width: 77%;
+    font-size: 43px;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 35vw;
+  }
+  .containerTestimonials .top .left h2 {
+    font-size: 53px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 31vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 50px;
+  }
+  .containerTestimonials .arrows {
+    right: -118px;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 42px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 13px 24px;
+  }
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+}
+
+@media only screen and (min-width: 1084px) and (max-width: 1242px) {
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 54vw;
+  }
+
+  /* Hero Section */
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    line-height: 50px;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 57px;
+  }
+  .singleService {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 56px;
+  }
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 27vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 89%;
+    font-size: 42px;
+  }
+  .ContainerBookTrip .left .item p {
+    font-size: 18px;
+    color: #403b3b;
+    max-width: 89%;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+  .tripToRome {
+    right: -41px;
+  }
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 53px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: rebeccapurple;
+  }
+  .containerTestimonials .arrows {
+    right: -114px;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    gap: 2rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 982px) and (max-width: 1084px) {
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 60vw;
+  }
+
+  /* Hero Section */
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 49px;
+    line-height: 45px;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 55px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 54px;
+  }
+  .singleService {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 56px;
+  }
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 32vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 88%;
+    font-size: 35px;
+  }
+  .ContainerBookTrip .left .item p {
+    font-size: 16px;
+    color: #403b3b;
+    max-width: 99%;
+    line-height: 24px;
+  }
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+  .tripToRome {
+    right: -41px;
+  }
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 49px;
+    color: red;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: red;
+  }
+  .containerTestimonials .arrows {
+    right: -114px;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    gap: 2rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 982px) {
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 75vw;
+  }
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+  .containerHero .left h4 {
+    font-size: 16px;
+  }
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    line-height: 55px;
+    margin: 10px 0;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 55px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 54px;
+    z-index: 9;
+  }
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .singleService {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+  .containerServices .plusIcons {
+    right: -50px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 33vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 16px;
+    color: #403b3b;
+    max-width: 99%;
+    line-height: 24px;
+  }
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+  .tripToRome {
+    right: -41px;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: red;
+  }
+  .containerTestimonials .arrows {
+    right: -101px;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+  /* Footer Section */
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 920px) {
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 75vw;
+  }
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+  }
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .playIcon p {
+    font-size: 20px;
+  }
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 4px;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    max-width: 58px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 49px;
+    z-index: 9;
+  }
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .singleService {
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+  .containerServices .plusIcons {
+    right: -50px;
+    z-index: -1;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+  .allDestinations {
+    justify-content: center;
+    align-items: start;
+    gap: 49px;
+    align-items: center;
+  }
+  .singleDestination {
+    width: 38vw;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+  .ContainerBookTrip .left .item p {
+    font-size: 20px;
+    color: #403b3b;
+    max-width: 85%;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: red;
+  }
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    flex-direction: column-reverse;
+  }
+  .ContainerBookTrip .left {
+    width: 76vw;
+  }
+  .ContainerBookTrip .right {
+    width: 23rem;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials .top .left {
+    width: 42vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+  .containerTestimonials .top .right {
+    width: 37vw;
+    padding: 19px 12px;
+  }
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .nextReview h4 {
+    margin-top: 4rem;
+  }
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+  }
+  .containerTestimonials .arrows {
+    right: -101px;
+    top: 169px;
+  }
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 23px;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 27px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 35vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+  .containerSubscribe .plusIcon {
+    right: -54px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 780px) {
+  section {
+    width: 90%;
+  }
+
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 94vw;
+  }
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .containerHero .left {
+    margin: auto;
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .containerHero .right {
+    margin-right: auto;
+    width: 86vw;
+  }
+
+  .containerHero .playIcon {
+    gap: 20px;
+  }
+  .playIcon p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 52px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 2px;
+  }
+
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 49px;
+    z-index: 9;
+  }
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .singleService {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+  .containerServices .plusIcons {
+    right: -50px;
+    z-index: -1;
+  }
+  .containerServices .plusIcons {
+    right: -24px;
+    top: 103px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 42vw;
+    margin: auto;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+  .ContainerBookTrip .left .item p {
+    font-size: 21px;
+    color: #403b3b;
+    max-width: 94%;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    flex-direction: column-reverse;
+  }
+  .ContainerBookTrip .left {
+    width: 76vw;
+  }
+  .ContainerBookTrip .right {
+    width: 21rem !important;
+    margin-right: 0;
+    color: yellowgreen;
+  }
+  .tripToRome {
+    right: -43px;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+  .containerTestimonials .top .left {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+  .containerTestimonials .top .right {
+    width: 60vw;
+    padding: 19px 12px;
+  }
+  .containerTestimonials .top .right p {
+    font-size: 19px;
+  }
+
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 23px;
+  }
+  .containerTestimonials .top {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+  .containerTestimonials .arrows {
+    right: -107px;
+    top: 169px;
+  }
+  .brands {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 21px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 35vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+  .containerSubscribe .subscribeNow div img {
+    top: 12px !important;
+  }
+  .subscripeTelegramIcon {
+    right: -13px;
+  }
+  .containerSubscribe .plusIcon {
+    right: -33px;
+  }
+  .carousel {
+    justify-content: center;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    gap: 7rem;
+    padding: 0;
+    justify-content: center !important;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+
+  .footer-section:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    width: 90%;
+  }
+
+  /* Navbar Section */
+  .containerNavbar ul {
+    width: 94vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .containerHero .left {
+    margin: auto;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .containerHero .right {
+    margin-right: auto;
+    width: 86vw;
+  }
+
+  .containerHero .playIcon {
+    gap: 20px;
+  }
+  .playIcon p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 52px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 2px;
+  }
+
+  /*Services Section   */
+  .containerServices .header h2 {
+    font-size: 36px;
+    z-index: 9;
+  }
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .singleService {
+    width: 53vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+  .containerServices .plusIcons {
+    right: -50px;
+    z-index: -1;
+    top: 119px;
+  }
+
+  .containerServices .plusIcons {
+    right: -13px;
+    top: 129px;
+  }
+
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 49px;
+  }
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 65vw;
+    margin: auto;
+  }
+
+  /* Book A Trip Section */
+  .ContainerBookTrip .left h3 {
+    max-width: 97%;
+    font-size: 34px;
+  }
+  .ContainerBookTrip .left .item p {
+    font-size: 21px;
+    color: #403b3b;
+    max-width: 94%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: red;
+  }
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    flex-direction: column-reverse;
+  }
+  .ContainerBookTrip .left {
+    width: 82vw;
+  }
+  .ContainerBookTrip .right {
+    width: 21rem !important;
+    margin-right: 0;
+    color: rebeccapurple;
+  }
+  .tripToRome {
+    right: -43px;
+  }
+
+  /* Testimonials Section */
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+  .containerTestimonials .top .left {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 40px;
+  }
+  .containerTestimonials .top .right {
+    width: 60vw;
+    padding: 16px 9px;
+  }
+  .containerTestimonials .top .right p {
+    font-size: 16px;
+  }
+
+  .containerTestimonials .top .right .image {
+    top: -26px;
+    left: -23px;
+    width: 48px;
+  }
+
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+
+  .containerTestimonials .top {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .containerTestimonials .top .right .image {
+    top: -48px;
+    left: -14px;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+  .containerTestimonials .arrows {
+    right: -100px;
+    top: 170px;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+  .carousel {
+    justify-content: center;
+  }
+  .containerTestimonials .arrows {
+    right: -100px;
+    top: 157px;
+  }
+  .brands {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+
+  /* Subscribe Section */
+  .containerSubscribe h3 {
+    font-size: 21px;
+    width: 90%;
+  }
+  .containerSubscribe .subscribeNow input {
+    width: 73vw;
+    padding: 9px 55px;
+  }
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+  .subscripeTelegramIcon {
+    width: 10vw;
+  }
+  .containerSubscribe .subscribeNow div img {
+    top: 12px !important;
+  }
+  .subscripeTelegramIcon {
+    right: -13px;
+  }
+  .containerSubscribe .subscribeNow {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -17px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    gap: 7rem;
+    padding: 0;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .discover {
+    color: red;
+  }
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 31vw;
+  }
+
+  .googlePlayIcone p,
+  .appleStoreIcone p {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .googlePlayIcone span,
+  .appleStoreIcone span {
+    font-size: 12px;
+  }
+  .footer-section.social .social-icons {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+/* ------------------------------------- */
+
+/* Only For Destinations Section  */
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+  .singleDestination {
+    width: 54vw;
+    margin: auto;
+  }
+}
+
+/* Only For Destinations Section  */
+@media only screen and (min-width: 1248px) and (max-width: 1358px) {
+  /* Destinations Section */
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+  .singleDestination {
+    width: 24vw;
+  }
+}
+
+/* Only For Book A trip Section */
+@media only screen and (min-width: 1596px) and (max-width: 1663px) {
+  .ContainerBookTrip .left h3 {
+    max-width: 76%;
+  }
+}

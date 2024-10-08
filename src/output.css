@@ -1,0 +1,3175 @@
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden] {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-\[-1px\] {
+  bottom: -1px;
+}
+
+.bottom-\[-23px\] {
+  bottom: -23px;
+}
+
+.bottom-\[-73px\] {
+  bottom: -73px;
+}
+
+.bottom-\[43px\] {
+  bottom: 43px;
+}
+
+.bottom-\[63px\] {
+  bottom: 63px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[-34px\] {
+  left: -34px;
+}
+
+.left-\[-35px\] {
+  left: -35px;
+}
+
+.left-\[-93px\] {
+  left: -93px;
+}
+
+.left-\[18px\] {
+  left: 18px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-\[-101px\] {
+  right: -101px;
+}
+
+.right-\[-126px\] {
+  right: -126px;
+}
+
+.right-\[-24px\] {
+  right: -24px;
+}
+
+.right-\[-2px\] {
+  right: -2px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-\[-18px\] {
+  top: -18px;
+}
+
+.top-\[-34px\] {
+  top: -34px;
+}
+
+.top-\[18px\] {
+  top: 18px;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[99\] {
+  z-index: 99;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-\[28px\] {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-\[14px\] {
+  margin-top: 14px;
+}
+
+.mt-\[16px\] {
+  margin-top: 16px;
+}
+
+.mt-\[5rem\] {
+  margin-top: 5rem;
+}
+
+.mt-\[6rem\] {
+  margin-top: 6rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-\[29rem\] {
+  height: 29rem;
+}
+
+.h-\[8px\] {
+  height: 8px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-\[187px\] {
+  width: 187px;
+}
+
+.w-\[18vw\] {
+  width: 18vw;
+}
+
+.w-\[19vw\] {
+  width: 19vw;
+}
+
+.w-\[26vw\] {
+  width: 26vw;
+}
+
+.w-\[28vw\] {
+  width: 28vw;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[40vw\] {
+  width: 40vw;
+}
+
+.w-\[41vw\] {
+  width: 41vw;
+}
+
+.w-\[43vw\] {
+  width: 43vw;
+}
+
+.w-\[62\%\] {
+  width: 62%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[83\%\] {
+  width: 83%;
+}
+
+.w-\[vw\] {
+  width: vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.min-w-\[10vw\] {
+  min-width: 10vw;
+}
+
+.min-w-\[17vw\] {
+  min-width: 17vw;
+}
+
+.max-w-\[66\%\] {
+  max-width: 66%;
+}
+
+.max-w-\[67\%\] {
+  max-width: 67%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.rotate-\[90deg\] {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-\[129px_20px_20px_20px\] {
+  border-radius: 129px 20px 20px 20px;
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.rounded-\[36px\] {
+  border-radius: 36px;
+}
+
+.rounded-\[4px\] {
+  border-radius: 4px;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-b-\[20px\] {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-none {
+  border-style: none;
+}
+
+.border-\[\#84829A\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(132 130 154 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-\[\#8a79df\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(138 121 223 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f1a501\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 165 1 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f5f5f5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f9f7fe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 247 254 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-\[\#ff946d\] {
+  --tw-gradient-from: #ff946d var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 148 109 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#ff7d68\] {
+  --tw-gradient-to: #ff7d68 var(--tw-gradient-to-position);
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
+.p-\[16px\] {
+  padding: 16px;
+}
+
+.p-\[28px_18px\] {
+  padding: 28px 18px;
+}
+
+.p-\[29px\] {
+  padding: 29px;
+}
+
+.p-\[8px\] {
+  padding: 8px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-\[19px\] {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.px-\[38px\] {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.px-\[55px\] {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[13px\] {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.pb-\[24px\] {
+  padding-bottom: 24px;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[\'Roboto\'\] {
+  font-family: 'Roboto';
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[19px\] {
+  font-size: 19px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[53px\] {
+  font-size: 53px;
+}
+
+.text-\[55px\] {
+  font-size: 55px;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
+}
+
+.text-\[83px\] {
+  font-size: 83px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-\[25px\] {
+  line-height: 25px;
+}
+
+.leading-\[31px\] {
+  line-height: 31px;
+}
+
+.leading-\[35px\] {
+  line-height: 35px;
+}
+
+.leading-\[41px\] {
+  line-height: 41px;
+}
+
+.leading-\[75px\] {
+  line-height: 75px;
+}
+
+.text-\[\#14183E\] {
+  --tw-text-opacity: 1;
+  color: rgb(20 24 62 / var(--tw-text-opacity));
+}
+
+.text-\[\#14183e\] {
+  --tw-text-opacity: 1;
+  color: rgb(20 24 62 / var(--tw-text-opacity));
+}
+
+.text-\[\#181e4b\] {
+  --tw-text-opacity: 1;
+  color: rgb(24 30 75 / var(--tw-text-opacity));
+}
+
+.text-\[\#1e1d4c\] {
+  --tw-text-opacity: 1;
+  color: rgb(30 29 76 / var(--tw-text-opacity));
+}
+
+.text-\[\#403b3b\] {
+  --tw-text-opacity: 1;
+  color: rgb(64 59 59 / var(--tw-text-opacity));
+}
+
+.text-\[\#5E6282\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 98 130 / var(--tw-text-opacity));
+}
+
+.text-\[\#5e6282\] {
+  --tw-text-opacity: 1;
+  color: rgb(94 98 130 / var(--tw-text-opacity));
+}
+
+.text-\[\#6a6161\] {
+  --tw-text-opacity: 1;
+  color: rgb(106 97 97 / var(--tw-text-opacity));
+}
+
+.text-\[\#706c6c\] {
+  --tw-text-opacity: 1;
+  color: rgb(112 108 108 / var(--tw-text-opacity));
+}
+
+.text-\[\#8a79df\] {
+  --tw-text-opacity: 1;
+  color: rgb(138 121 223 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-\[0_2px_8px_rgba\(99\2c 99\2c 99\2c 0\.2\)\] {
+  --tw-shadow: 0 2px 8px rgba(99,99,99,0.2);
+  --tw-shadow-colored: 0 2px 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_4px_20px_-2px_rgba\(89\2c 177\2c 230\2c 0\.5\)\] {
+  --tw-shadow: 0 4px 20px -2px rgba(89,177,230,0.5);
+  --tw-shadow-colored: 0 4px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.grayscale {
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter-none {
+  filter: none;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 3rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-auto {
+  font-family: auto !important;
+}
+
+/*  -----------   Hero Section-----------  */
+
+.containerHero .playButtonIcone {
+  /* position: absolute; */
+  width: 70px;
+  box-shadow: 0px 15px 30px 0px #ff856d3b;
+}
+
+.containerHero .left h4 {
+  color: #df6951;
+}
+
+img.underLine {
+  position: absolute;
+  width: 21rem;
+  left: 230px;
+  z-index: -1;
+  bottom: 9px;
+}
+
+.custom-line {
+  position: relative;
+}
+
+/*  -----------   Services Section -----------  */
+
+.singleService.relative {
+  box-shadow: 0px 1.85px 3.15px 0px #00000001;
+  box-shadow: 0px 8.15px 6.52px 0px #00000002;
+  box-shadow: 0px 20px 13px 0px #00000003;
+  box-shadow: 0px 38.52px 25.48px 0px #00000003;
+  box-shadow: 0px 64.81px 46.85px 0px #00000004;
+  box-shadow: 0px 100px 80px 0px #00000005;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: #fff;
+}
+
+/*-----------Book A Trip Section---------------*/
+
+.ContainerBookTrip .right {
+  line-height: 41px;
+}
+
+/* -----------  Testimonials Section ------------- */
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.containerTestimonials .bottom .brands img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.containerTestimonials .bottom .brands img:hover {
+  filter: grayscale(0%);
+}
+
+.containerTestimonials .bottom .brands .bigImage {
+  filter: grayscale(0%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.containerTestimonials .arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  right: -135px;
+  /* background-color: red; */
+  z-index: 999;
+  top: 93px;
+  cursor: pointer;
+}
+
+.allReviews {
+  position: relative;
+  margin-right: 3rem;
+}
+
+.nextReview {
+  position: absolute;
+  z-index: -1;
+  right: -39px;
+  top: 114px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/*-------------   Footer Section  ----------------*/
+
+.footer-section.logo p,
+.footer-section ul li a {
+  font-size: 18px;
+}
+
+.footer-section ul {
+  white-space: nowrap;
+}
+
+.footer-section.social .social-icons img {
+  width: 50px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.footer-section.social .app-icons span {
+  white-space: nowrap;
+  display: block;
+}
+
+.footer-section.social .app-icons img {
+  height: 29px;
+  width: 23px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.instaIcone {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b8d2f1 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  border-radius: 50%;
+  width: 50px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.googlePlayIcone {
+  background-color: #121212;
+  min-width: 10vw;
+  display: flex;
+  gap: 10px;
+  padding: 7px 22px;
+  border-radius: 20px;
+  align-items: center;
+  height: 55px;
+  white-space: nowrap;
+}
+
+.googlePlayIcone span {
+  color: #d3c9c9;
+  font-weight: 200;
+}
+
+.appleStoreIcone {
+  background-color: #121212;
+  display: flex;
+  gap: 10px;
+  padding: 7px 22px;
+  border-radius: 20px;
+  min-width: 10vw;
+  align-items: center;
+  height: 55px;
+  white-space: nowrap;
+}
+
+.appleStoreIcone span {
+  color: #d3c9c9;
+}
+
+/* ---------------------------------- */
+
+/* Media Query */
+
+/* ------------------------------------ */
+
+@media only screen and (min-width: 1334px) and (max-width: 1596px) {
+  /* Hero Section */
+
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 58px;
+    line-height: 62px;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 17rem;
+    left: 178px;
+  }
+
+  .containerHero p.desc {
+    width: 75%;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+
+  .singleDestination {
+    width: 24vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 76%;
+    font-size: 47px;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 44vw;
+  }
+
+  .containerTestimonials .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 31vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 50px;
+  }
+
+  .containerTestimonials .arrows {
+    right: -118px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 48px;
+    width: 88%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 23vw;
+  }
+
+  /* Footer Section */
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 12vw;
+  }
+}
+
+@media only screen and (min-width: 1242px) and (max-width: 1334px) {
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 48vw;
+  }
+
+  /* Hero Section */
+
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 51px;
+    line-height: 55px;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 15rem;
+    left: 147px;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 65px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 3rem;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 57px;
+  }
+
+  .singleService {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+
+  .singleDestination {
+    width: 24vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left p {
+    max-width: 84%;
+  }
+
+  .ContainerBookTrip .left h3 {
+    max-width: 77%;
+    font-size: 43px;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 35vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 53px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 31vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 50px;
+  }
+
+  .containerTestimonials .arrows {
+    right: -118px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 42px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 13px 24px;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+}
+
+@media only screen and (min-width: 1084px) and (max-width: 1242px) {
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 54vw;
+  }
+
+  /* Hero Section */
+
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    line-height: 50px;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 57px;
+  }
+
+  .singleService {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 56px;
+  }
+
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 27vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 89%;
+    font-size: 42px;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 18px;
+    color: #403b3b;
+    max-width: 89%;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+
+  .tripToRome {
+    right: -41px;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 53px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: rebeccapurple;
+  }
+
+  .containerTestimonials .arrows {
+    right: -114px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 2rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 982px) and (max-width: 1084px) {
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 60vw;
+  }
+
+  /* Hero Section */
+
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 49px;
+    line-height: 45px;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 55px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 54px;
+  }
+
+  .singleService {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 56px;
+  }
+
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 32vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 88%;
+    font-size: 35px;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 16px;
+    color: #403b3b;
+    max-width: 99%;
+    line-height: 24px;
+  }
+
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+
+  .tripToRome {
+    right: -41px;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 49px;
+    color: red;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: red;
+  }
+
+  .containerTestimonials .arrows {
+    right: -114px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 2rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 982px) {
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 75vw;
+  }
+
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero .left h4 {
+    font-size: 16px;
+  }
+
+  .containerHero .left h2 {
+    width: 100%;
+    font-size: 47px;
+    line-height: 55px;
+    margin: 10px 0;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 55px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 14rem;
+    left: 131px;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 54px;
+    z-index: 9;
+  }
+
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .singleService {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  .containerServices .plusIcons {
+    right: -50px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+
+  .allDestinations {
+    justify-content: space-between;
+    align-items: start;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 33vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 16px;
+    color: #403b3b;
+    max-width: 99%;
+    line-height: 24px;
+  }
+
+  .ContainerBookTrip .right {
+    margin-right: -1rem;
+  }
+
+  .tripToRome {
+    right: -41px;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+    color: red;
+  }
+
+  .containerTestimonials .arrows {
+    right: -101px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 33px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 26vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 920px) {
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 75vw;
+  }
+
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+  }
+
+  .containerHero .left h2 {
+    width: 100%;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 40px;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .playIcon p {
+    font-size: 20px;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 4px;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    max-width: 58px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 49px;
+    z-index: 9;
+  }
+
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .singleService {
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  .containerServices .plusIcons {
+    right: -50px;
+    z-index: -1;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+
+  .allDestinations {
+    justify-content: center;
+    align-items: start;
+    gap: 49px;
+    align-items: center;
+  }
+
+  .singleDestination {
+    width: 38vw;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 20px;
+    color: #403b3b;
+    max-width: 85%;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: red;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    flex-direction: column-reverse;
+  }
+
+  .ContainerBookTrip .left {
+    width: 76vw;
+  }
+
+  .ContainerBookTrip .right {
+    width: 23rem;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials .top .left {
+    width: 42vw;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+
+  .containerTestimonials .top .right {
+    width: 37vw;
+    padding: 19px 12px;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 17px;
+  }
+
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+
+  .containerTestimonials .right,
+  .nextReview {
+    width: 36vw;
+  }
+
+  .nextReview h4 {
+    margin-top: 4rem;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 41px;
+  }
+
+  .containerTestimonials .arrows {
+    right: -101px;
+    top: 169px;
+  }
+
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 23px;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 27px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 35vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -63px;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -54px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 780px) {
+  section {
+    width: 90%;
+  }
+
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 94vw;
+  }
+
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .containerHero .left h2 {
+    width: 100%;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 40px;
+  }
+
+  .containerHero .left {
+    margin: auto;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .containerHero .right {
+    margin-right: auto;
+    width: 86vw;
+  }
+
+  .containerHero .playIcon {
+    gap: 20px;
+  }
+
+  .playIcon p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 52px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 2px;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 49px;
+    z-index: 9;
+  }
+
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .singleService {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  .containerServices .plusIcons {
+    z-index: -1;
+    right: -24px;
+    top: 103px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 42vw;
+    margin: auto;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 92%;
+    font-size: 37px;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 21px;
+    color: #403b3b;
+    max-width: 94%;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    flex-direction: column-reverse;
+  }
+
+  .ContainerBookTrip .left {
+    width: 76vw;
+  }
+
+  .ContainerBookTrip .right {
+    width: 21rem !important;
+    margin-right: 0;
+    color: yellowgreen;
+  }
+
+  .tripToRome {
+    right: -43px;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+
+  .containerTestimonials .top .left {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 44px;
+  }
+
+  .containerTestimonials .top .right {
+    width: 60vw;
+    padding: 19px 12px;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 19px;
+  }
+
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 23px;
+  }
+
+  .containerTestimonials .top {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+
+  .containerTestimonials .arrows {
+    right: -107px;
+    top: 169px;
+  }
+
+  .brands {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 21px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 35vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 5vw;
+  }
+
+  .containerSubscribe .subscribeNow div img {
+    top: 12px !important;
+  }
+
+  .subscripeTelegramIcon {
+    right: -13px;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -33px;
+  }
+
+  .carousel {
+    justify-content: center;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 7rem;
+    padding: 0;
+    justify-content: center !important;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 13vw;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+
+  .footer-section:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    width: 90%;
+  }
+
+  /* Navbar Section */
+
+  .containerNavbar ul {
+    width: 94vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .containerNavbar {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Hero Section */
+
+  .containerHero {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .containerHero .left h2 {
+    width: 100%;
+    z-index: 999;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 35px;
+  }
+
+  .containerHero .left {
+    margin: auto;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .containerHero .left p.desc {
+    width: 99%;
+    font-size: 16px;
+    line-height: 31px;
+  }
+
+  .containerHero .right {
+    margin-right: auto;
+    width: 86vw;
+  }
+
+  .containerHero .playIcon {
+    gap: 20px;
+  }
+
+  .playIcon p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .containerHero .left button {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .containerHero .playButtonIcone {
+    width: 52px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 12rem;
+    left: 113px;
+    bottom: 2px;
+  }
+
+  /*Services Section   */
+
+  .containerServices .header h2 {
+    font-size: 36px;
+    z-index: 9;
+  }
+
+  .allServices {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .singleService {
+    width: 53vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 14px;
+  }
+
+  .containerServices .plusIcons {
+    z-index: -1;
+    right: -13px;
+    top: 129px;
+  }
+
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 49px;
+  }
+
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 65vw;
+    margin: auto;
+  }
+
+  /* Book A Trip Section */
+
+  .ContainerBookTrip .left h3 {
+    max-width: 97%;
+    font-size: 34px;
+  }
+
+  .ContainerBookTrip .left .item p {
+    font-size: 21px;
+    color: #403b3b;
+    max-width: 94%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: red;
+  }
+
+  .ContainerBookTrip .left .item h4 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  .ContainerBookTrip {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    flex-direction: column-reverse;
+  }
+
+  .ContainerBookTrip .left {
+    width: 82vw;
+  }
+
+  .ContainerBookTrip .right {
+    width: 21rem !important;
+    margin-right: 0;
+    color: rebeccapurple;
+  }
+
+  .tripToRome {
+    right: -43px;
+  }
+
+  /* Testimonials Section */
+
+  .containerTestimonials {
+    flex-wrap: wrap;
+  }
+
+  .containerTestimonials .top .left {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .containerTestimonials .top .left h2 {
+    font-size: 40px;
+  }
+
+  .containerTestimonials .top .right {
+    width: 60vw;
+    padding: 16px 9px;
+  }
+
+  .containerTestimonials .top .right p {
+    font-size: 16px;
+  }
+
+  .containerTestimonials .top .right .image {
+    top: -26px;
+    left: -23px;
+    width: 48px;
+  }
+
+  .containerTestimonials .top .right h4 {
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+
+  .containerTestimonials .top {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .containerTestimonials .top .right .image {
+    top: -48px;
+    left: -14px;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+
+  .containerTestimonials .arrows {
+    right: -100px;
+    top: 170px;
+  }
+
+  .nextReview {
+    right: -64px;
+    top: 96px;
+  }
+
+  .carousel {
+    justify-content: center;
+  }
+
+  .containerTestimonials .arrows {
+    right: -100px;
+    top: 157px;
+  }
+
+  .brands {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+  }
+
+  /* Subscribe Section */
+
+  .containerSubscribe h3 {
+    font-size: 21px;
+    width: 90%;
+  }
+
+  .containerSubscribe .subscribeNow input {
+    width: 73vw;
+    padding: 9px 55px;
+  }
+
+  .containerSubscribe .subscribeNow button {
+    padding: 7px 21px;
+  }
+
+  .subscripeTelegramIcon {
+    width: 10vw;
+  }
+
+  .containerSubscribe .subscribeNow div img {
+    top: 12px !important;
+  }
+
+  .subscripeTelegramIcon {
+    right: -13px;
+  }
+
+  .containerSubscribe .subscribeNow {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .containerSubscribe .plusIcon {
+    right: -17px;
+  }
+
+  /* Footer Section */
+
+  .footer-container {
+    gap: 7rem;
+    padding: 0;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .discover {
+    color: red;
+  }
+
+  .googlePlayIcone,
+  .appleStoreIcone {
+    min-width: 31vw;
+  }
+
+  .googlePlayIcone p,
+  .appleStoreIcone p {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .googlePlayIcone span,
+  .appleStoreIcone span {
+    font-size: 12px;
+  }
+
+  .footer-section.social .social-icons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section.logo p {
+    font-size: 18px;
+  }
+}
+
+/* ------------------------------------- */
+
+/* Only For Destinations Section  */
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 51px;
+  }
+
+  .allDestinations {
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+  }
+
+  .singleDestination {
+    width: 54vw;
+    margin: auto;
+  }
+}
+
+/* Only For Destinations Section  */
+
+@media only screen and (min-width: 1248px) and (max-width: 1358px) {
+  /* Destinations Section */
+
+  .containerDestinations .header h2 {
+    font-size: 59px;
+  }
+
+  .singleDestination {
+    width: 24vw;
+  }
+}
+
+/* Only For Book A trip Section */
+
+@media only screen and (min-width: 1596px) and (max-width: 1663px) {
+  .ContainerBookTrip .left h3 {
+    max-width: 76%;
+  }
+}
