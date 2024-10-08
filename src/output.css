@@ -2079,7 +2079,7 @@ img.underLine {
   }
 
   .containerTestimonials .top .left h2 {
-    font-size: 49px;
+    font-size: 40px;
   }
 
   .containerTestimonials .top .right p {
@@ -2963,7 +2963,7 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 49px;
+    font-size: 40px !important;
   }
 
   .allDestinations {
@@ -2982,6 +2982,7 @@ img.underLine {
   .ContainerBookTrip .left h3 {
     max-width: 97%;
     font-size: 34px;
+    text-align: center !important;
   }
 
   .ContainerBookTrip .left .item p {
