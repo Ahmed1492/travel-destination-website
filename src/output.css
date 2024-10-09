@@ -3237,16 +3237,23 @@ img.underLine {
 
   /* Hero Section */
 
+  #menu-button {
+    z-index: 9999;
+    position: absolute;
+    right: -66px;
+    top: 26px;
+  }
+
   .bg-orange {
     right: -97px;
   }
 
-  .playIcon p {
-    font-size: 26px;
-  }
-
   .containerHero .playIcon {
     gap: 11px;
+  }
+
+  .containerHero .playIcon p {
+    font-size: 26px;
   }
 
   .containerHero .left button {
@@ -3255,9 +3262,9 @@ img.underLine {
 
   .containerHero .left p.desc {
     width: 100%;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 31px;
-    text-align: center;
+    text-align: left;
   }
 
   .containerHero .left h2 {
@@ -3268,6 +3275,27 @@ img.underLine {
     font-size: 31px;
     text-align: left;
     margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .containerHero .custom-line .underLine {
+    width: 9rem;
+    left: 91px;
+    bottom: 2px;
+  }
+
+  .containerHero .findOutMore {
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: flex-start;
+  }
+
+  .containerHero .right .images {
+    margin-right: -6rem;
+    margin-top: -4rem;
   }
 
   /* Service Section */
@@ -3293,64 +3321,39 @@ img.underLine {
     flex-direction: column !important;
   }
 
-  #menu-button {
-    z-index: 9999;
-    position: absolute;
-    right: -66px;
-    top: 26px;
-  }
-
-  .containerHero .left h2 {
-    text-align: center;
-    margin-top: 2rem;
-  }
-
-  .containerHero .left p.desc {
-    width: 100%;
-    font-size: 18px;
-    line-height: 31px;
-    text-align: left;
-  }
-
   .tripToRome {
     right: -12px;
   }
-
-  .containerHero .custom-line .underLine {
-    width: 9rem;
-    left: 91px;
-    bottom: 2px;
-  }
-
-  .containerHero .findOutMore {
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 2rem;
-    justify-content: flex-start;
-  }
-
-  .containerHero .right .images {
-    margin-right: -6rem;
-    margin-top: -4rem;
-  }
 }
 
-@media only screen and (max-width: 258px) {
+@media only screen and (max-width: 320px) {
   section {
     margin-right: -2rem;
   }
 
-  .bg-orange {
-    right: -97px;
+  #menu-button {
+    z-index: 9999;
+    position: absolute;
+    top: 26px;
+    right: -106px;
   }
 
-  .playIcon p {
-    font-size: 26px;
+  /* Hero Section */
+
+  .containerHero {
+    margin-right: -4rem;
+  }
+
+  .bg-orange {
+    right: -124px;
   }
 
   .containerHero .playIcon {
     gap: 11px;
+  }
+
+  .containerHero .playIcon p {
+    font-size: 26px;
   }
 
   .containerHero .left button {
@@ -3359,9 +3362,9 @@ img.underLine {
 
   .containerHero .left p.desc {
     width: 100%;
-    font-size: 19px;
     line-height: 31px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
   }
 
   .containerHero .left h2 {
@@ -3370,50 +3373,9 @@ img.underLine {
     margin: 2px 0;
     line-height: 39px;
     font-size: 31px;
-    text-align: left;
     margin-bottom: 2rem;
-  }
-
-  .singleService {
-    width: 16rem;
-  }
-
-  .singleDestination {
-    width: 18rem;
-  }
-
-  .ContainerBookTrip .left h3 {
-    max-width: 100%;
-    font-size: 31px;
-    text-align: center;
-    margin: 29px 0;
-  }
-
-  .items .item {
-    flex-direction: column !important;
-  }
-
-  #menu-button {
-    z-index: 9999;
-    position: absolute;
-    right: -66px;
-    top: 26px;
-  }
-
-  .containerHero .left h2 {
     text-align: center;
     margin-top: 2rem;
-  }
-
-  .containerHero .left p.desc {
-    width: 100%;
-    font-size: 18px;
-    line-height: 31px;
-    text-align: left;
-  }
-
-  .tripToRome {
-    right: -12px;
   }
 
   .containerHero .custom-line .underLine {
@@ -3435,20 +3397,42 @@ img.underLine {
     margin-top: -4rem;
   }
 
-  .bg-orange {
-    right: -148px;
-  }
+  /* Boo A Trip Section */
 
-  .singleDestination {
-    width: 13rem;
+  .ContainerBookTrip .left h3 {
+    max-width: 100%;
+    font-size: 31px;
+    text-align: center;
+    margin: 29px 0;
   }
 
   .ContainerBookTrip .right {
     width: 17rem !important;
   }
 
+  .items .item {
+    flex-direction: column !important;
+  }
+
   .tripToRome {
+    right: -12px;
     width: 16rem;
+  }
+
+  /* Destination Section */
+
+  .containerDestinations {
+    margin-right: -4rem;
+  }
+
+  .singleDestination {
+    width: 13rem;
+  }
+
+  /* Testimonial Section */
+
+  .containerTestimonials {
+    margin-right: -4rem;
   }
 
   .containerTestimonials .top .right {
@@ -3468,31 +3452,19 @@ img.underLine {
     font-size: 28px;
   }
 
+  /* Subscribe Section */
+
   .containerSubscribe {
     margin-right: -4rem;
   }
 
-  .containerTestimonials {
-    margin-right: -4rem;
-  }
-
-  .containerDestinations {
-    margin-right: -4rem;
-  }
+  /* Service Section */
 
   .containerServices {
     margin-right: -4rem;
   }
 
-  .containerHero {
-    margin-right: -4rem;
-  }
-
-  .bg-orange {
-    right: -124px;
-  }
-
-  #menu-button {
-    right: -106px;
+  .singleService {
+    width: 16rem;
   }
 }
