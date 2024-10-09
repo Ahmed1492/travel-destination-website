@@ -763,6 +763,10 @@ video {
   margin-top: 6rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -2032,7 +2036,8 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 56px;
+    font-size: 47px;
+    margin-bottom: 7rem;
   }
 
   .allDestinations {
@@ -2217,7 +2222,8 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 51px;
+    font-size: 47px;
+    margin-bottom: 7rem;
   }
 
   .allDestinations {
@@ -2409,7 +2415,8 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 51px;
+    font-size: 47px;
+    margin-bottom: 7rem;
   }
 
   .allDestinations {
@@ -2656,7 +2663,8 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 51px;
+    font-size: 47px;
+    margin-bottom: 7rem;
   }
 
   .allDestinations {
@@ -2973,7 +2981,7 @@ img.underLine {
   }
 
   .singleDestination {
-    width: 65vw;
+    width: 20rem;
     margin: auto;
   }
 
@@ -3184,7 +3192,8 @@ img.underLine {
   /* Destinations Section */
 
   .containerDestinations .header h2 {
-    font-size: 51px;
+    font-size: 47px;
+    margin-bottom: 6rem;
   }
 
   .allDestinations {
@@ -3194,7 +3203,7 @@ img.underLine {
   }
 
   .singleDestination {
-    width: 54vw;
+    width: 20rem;
     margin: auto;
   }
 }
@@ -3209,7 +3218,7 @@ img.underLine {
   }
 
   .singleDestination {
-    width: 24vw;
+    width: 23vw;
   }
 }
 
