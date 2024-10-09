@@ -36,6 +36,16 @@ a {
   border-radius: 28px;
 }
 
+.links.notActive {
+  right: 159vw;
+}
+.links.active {
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .containerHero .playButtonIcone {
   width: 70px;
   box-shadow: 0px 15px 30px 0px #ff856d3b;
@@ -1228,16 +1238,6 @@ img.underLine {
   }
 }
 
-.links.notActive {
-  right: 159vw;
-}
-.links.active {
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-
 @media only screen and (max-width: 600px) {
   section {
     width: 90%;
@@ -1588,6 +1588,7 @@ img.underLine {
   section {
     margin-right: -2rem;
   }
+  /* Hero Section */
 
   .bg-orange {
     right: -97px;
@@ -1619,12 +1620,16 @@ img.underLine {
     text-align: left;
     margin-bottom: 2rem;
   }
+
+  /* Service Section */
   .singleService {
     width: 16rem;
   }
   .singleDestination {
     width: 18rem;
   }
+
+  /* Book A Trip Section */
 
   .ContainerBookTrip .left h3 {
     max-width: 100%;
