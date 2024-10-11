@@ -767,6 +767,14 @@ video {
   margin-top: 6rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1251,6 +1259,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1443,6 +1456,10 @@ a {
 
 .font-auto {
   font-family: auto !important;
+}
+
+.blueColor {
+  color: #5e6282 !important;
 }
 
 /*  -----------   Hero Section-----------  */
