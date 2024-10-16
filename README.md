@@ -7,8 +7,8 @@ https://ahmed1492.github.io/travel-destination-website/src/
 
 ## Technologies Used
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **Tailwind CSS**
 
 ## Features
